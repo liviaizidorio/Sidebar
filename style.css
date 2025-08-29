@@ -159,7 +159,7 @@ Sidebar
 .sidebar-toggle {
   position: fixed;
   top: 2rem;
-  right: 3rem;
+  left: 3rem;
   font-size: 2rem;
   background: transparent;
   border-color: transparent;
@@ -256,4 +256,17 @@ Sidebar
   .sidebar {
     width: 400px;
   }
+}
+
+.tema{
+  position: fixed;
+  top: 2rem;
+  right: 3rem;
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  background: white;      
+  cursor: pointer;
+  /* padding: 5px; espaço para a imagem nao grudar na borda */
+  box-sizing: border-box;
 }
