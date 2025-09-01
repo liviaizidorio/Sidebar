@@ -159,7 +159,7 @@ Sidebar
 .sidebar-toggle {
   position: fixed;
   top: 2rem;
-  right: 3rem;
+  left: 3rem;
   font-size: 2rem;
   background: transparent;
   border-color: transparent;
@@ -256,4 +256,39 @@ Sidebar
   .sidebar {
     width: 400px;
   }
+}
+
+.tema{
+  position: fixed;
+  top: 2rem;
+  right: 3rem;
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  background: white;      
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/* tema claro (normal) */
+:root {
+  --background-color: var(--clr-grey-10);
+  --text-color: var(--clr-grey-1);
+  --sidebar-bg: var(--clr-white);
+}
+
+/* tema escuro */
+.dark-theme {
+  --background-color: #121212;
+  --text-color: #f1f1f1;
+  --sidebar-bg: #1e1e1e;
+}
+
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+.sidebar {
+  background: var(--sidebar-bg);
 }
