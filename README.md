@@ -1,5 +1,5 @@
 # Projeto Sidebar com Tema Claro/Escuro
-Este projeto consiste em uma sidebar que pode ser aberta/fechada por um botão, pelo x, ou clicando fora dela, e também um botão que muda de tema para claro e escuro.
+Este projeto consiste em uma sidebar que pode ser aberta/fechada pelo x ou clicando fora dela, e também um botão que muda de tema para claro e escuro.
 
 ## Funcionalidades  
 
@@ -14,3 +14,21 @@ Este projeto consiste em uma sidebar que pode ser aberta/fechada por um botão, 
 - **HTML** → estrutura do projeto  
 - **CSS** → estilização e animações  
 - **JavaScript** → interação da sidebar e troca de tema 
+
+## Como rodar
+Você pode rodar o projeto de **duas formas**:  
+
+### 1. Pelo link do Render  
+Basta acessar o link publicado:  
+[Projeto no Render](https://sidebar-mkev.onrender.com)  
+
+### 2. Localmente (via clone do repositório)  
+1. Clone este repositório:  
+```bash
+git clone https://github.com/liviaizidorio/Sidebar.git
+```
+2. Entre na pasta do projeto:
+```bash
+cd Sidebar
+```
+3. Abra o arquivo index.html diretamente no navegador.
