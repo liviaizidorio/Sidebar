@@ -267,6 +267,28 @@ Sidebar
   border: 2px solid black;
   background: white;      
   cursor: pointer;
-  /* padding: 5px; espaço para a imagem nao grudar na borda */
   box-sizing: border-box;
+}
+
+/* tema claro (normal) */
+:root {
+  --background-color: var(--clr-grey-10);
+  --text-color: var(--clr-grey-1);
+  --sidebar-bg: var(--clr-white);
+}
+
+/* tema escuro */
+.dark-theme {
+  --background-color: #121212;
+  --text-color: #f1f1f1;
+  --sidebar-bg: #1e1e1e;
+}
+
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+.sidebar {
+  background: var(--sidebar-bg);
 }

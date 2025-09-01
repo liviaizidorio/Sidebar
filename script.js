@@ -23,12 +23,14 @@ document.addEventListener("click", (e) => {
   }}
 );
 
-document.addEventListener("click", (e) => {
-  if (escuroClaro.src.includes("sol.png")) {
+tema.addEventListener("click", () => {
+  document.body.classList.toggle("dark-theme");
+
+  if (document.body.classList.contains("dark-theme")) {
     escuroClaro.src = "lua.png";
-    tema.style.padding = '1px';
+    tema.style.padding = "1px";
   } else {
     escuroClaro.src = "sol.png";
-    tema.style.padding = '0px';
+    tema.style.padding = "0px";
   }
 });
