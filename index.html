@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sidebar</title>
+
     <!-- font-awesome -->
     <link
       rel="stylesheet"
@@ -13,33 +14,63 @@
     <!-- styles -->
     <link rel="stylesheet" href="style.css" />
   </head>
+
+
   <body>
+    <!-- sidebar -->
     <button class="sidebar-toggle">
       <i class="fas fa-bars"></i>
     </button>
+
+    <!-- mudança tema -->
     <button class="tema">
-      <img src="sol.png" alt="escuro-claro" id="escuro-claro" width="40">
+      <img src="icons/sol.png" alt="escuro-claro" id="escuro-claro" width="40">
     </button>
+
+    <!-- fechar sidebar -->
     <aside class="sidebar">
       <div class="sidebar-header">
         <button class="close-btn"><i class="fas fa-times"></i></button>
       </div>
-      <!-- links -->
-      <ul class="links">
-        <li>
-          <a href="index.html" id="home">home</a>
-        </li>
-        <li>
-          <a href="about.html" id="about">about</a>
-        </li>
-        <li>
-          <a href="projects.html" id="projects">projects</a>
-        </li>
-        <li>
-          <a href="contact.html" id="contact">contact</a>
-        </li>
+
+
+      <!-- links dos icones -->
+    <ul class="links">
+  <li>
+    <a href="index.html">
+      <img src="icons/home.png" alt="" class= "icon-btn">
+      <span class="link-text">Home</span>
+    </a>
+  </li>
+  <li>
+    <a href="about.html">
+      <img src="icons/user.png" alt="" class="icon-btn">
+      <span class="link-text">About</span>
+    </a>
+  </li>
+  <li>
+    <a href="products.html">
+      <img src="icons/products.png" alt="" class="icon-btn">
+      <span class="link-text">Products</span>
+    </a>
+  </li>
+  <li>
+    <a href="contact.html">
+      <img src="icons/" alt="" class="icon-btn">
+      <span class="link-text">Contacts</span>
+    </a>
+  </li>
+  <li>
+    <a href="settings.html">
+      <img src="icons/settings.png" alt="" class="icon-btn">
+      <span class="link-text">Settings</span>
+    </a>
+  </li>
+</ul>
+
+
       </ul>
-      <!-- social media -->
+      <!-- links social media -->
       <ul class="social-icons">
         <li>
           <a href="https://www.twitter.com">

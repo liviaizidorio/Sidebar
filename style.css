@@ -208,13 +208,35 @@ Sidebar
 }
 
 .links a {
-  display: block;
-  font-size: 1.5rem;
-  text-transform: capitalize;
-  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
   color: var(--clr-grey-5);
+  padding: 1rem;
   transition: var(--transition);
 }
+
+.links a i {
+  display: flex;          /* deixa ícone e texto alinhados */
+  align-items: center;    /* centraliza verticalmente */
+  padding: 12px 10px;     /* aumenta o espaço interno do bloco */
+  margin-bottom: 10px;  
+}
+
+.sidebar ul li img {
+  width: 25px;            /* controla o tamanho da imagem */
+  height: 25px;
+  margin-right: 12px;     /* espaço entre imagem e o texto */
+}
+
+.link-text {
+  display: none; /* esconde texto no estado fechado */
+}
+
+.show-sidebar .link-text {
+  display: inline; /* mostra texto quando expandido */
+}
+
 .links a:hover {
   background: var(--clr-primary-8);
   color: var(--clr-primary-5);
